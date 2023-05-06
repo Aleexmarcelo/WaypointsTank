@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowPath : MonoBehaviour
 {
     Transform goal;
-    float speed = 5.0f;
+    float speed = 15.0f;
     float accuracy = 1.0f;
     float rotSpeed = 2.0f;
     public GameObject wpManager;
@@ -27,9 +27,16 @@ public class FollowPath : MonoBehaviour
         currentWP = 0;
     }
 
+
+    public void GoToUsine()
+    {
+        g.AStar(currentNode, wps[9]);
+        currentWP = 0;
+    }
+
     public void GoToRuin()
     {
-        g.AStar(currentNode, wps[6]);
+        g.AStar(currentNode, wps[7]);
         currentWP = 0;
     }
 
