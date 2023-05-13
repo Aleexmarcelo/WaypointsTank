@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class FollowPath : MonoBehaviour
 {
+    //Declarando as variáveis
     Transform goal;
     float speed = 15.0f;
     float accuracy = 1.0f;
@@ -21,6 +22,7 @@ public class FollowPath : MonoBehaviour
     private static readonly int ground = 1 << 6;
 
 
+    //
     void Start()
     {
         wps = wpManager.GetComponent<WPManager>().waypoints;
