@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//Variaveis que criam um node dentro do wpmanager para configuracao visual dos waypoints
 [System.Serializable]
 public struct Link
 {
@@ -9,12 +10,14 @@ public struct Link
     public GameObject node2;
     public direction dir;
 }
+
 public class WPManager : MonoBehaviour
 {
+//Declarando as variaveis
     public GameObject[] waypoints;
     public Link[] links;
     public Graph graph = new Graph();
-    // Start is called before the first frame update
+    //Começa o jogo utilizando uma varredura que define os proximos nodes
     void Start()
     {
         if (waypoints.Length > 0)
@@ -31,6 +34,7 @@ public class WPManager : MonoBehaviour
             }
         }
     }
+    //Metodo desenhando um graph a cada frame
     void Update()
     {
         graph.debugDraw();
