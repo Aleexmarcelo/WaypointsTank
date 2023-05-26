@@ -13,10 +13,6 @@
 
 🔹 Como rodar a aplicação
 
-🔹 Testes realizados
-
-🔹 Banco de Dados
-
 🔹 Linguagens, dependências e libs utilizadas
 
 🔹 Novas Recursos
@@ -36,53 +32,38 @@ Um projeto de estudo utilizando o pathfinder a* fazendo um tank se mover em um d
 ## Funcionalidades ⚙️
 ✔️ Funcionalidade 1
     Opções por botões 
-✔️ Funcionalidade 2
-
-✔️ Funcionalidade 3
-
-✔️ Funcionalidade 4
 
 ## Distribuição
 https://github.com/Aleexmarcelo/WaypointsTank
 
 ## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+Windows 10 ou superior;
+Intel i3 1ª Geração ou superior;
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+Ao abrir a build, o usuário deve escolher um dos 3 botões para movimentar o personagem.
 
-## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
-
-## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
-
-## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
-
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 📝 Tarefa 1
 
+![image](https://github.com/Aleexmarcelo/WaypointsTank/assets/83593099/0be01408-6cbb-4d89-a498-9aef566c09f6)
+
+
 📝 Tarefa 2
+
+![image](https://github.com/Aleexmarcelo/WaypointsTank/assets/83593099/834eaf57-28bd-4a87-a18e-0e908516c15d)
+
 
 📝 Tarefa 3
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+Alex Marcelo
 
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright ©️ 2023 - WaypointsTank
